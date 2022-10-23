@@ -8,7 +8,7 @@ export default function Template() {
     <>
       <Navbar bg="light" expand="sm">
         <Container>
-          <Navbar.Brand href="#home">JCastle's AI Lab</Navbar.Brand>
+          <Navbar.Brand href="#home">JCastle&apos;s AI Lab</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
