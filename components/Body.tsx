@@ -1,8 +1,12 @@
 export default function Body() {
   return (
     <>
-      <div>Body</div>
-      <style jsx>{``}</style>
+      <div className="body">Body</div>
+      <style jsx>{`
+        .body {
+          height: 600px;
+        }
+      `}</style>
     </>
   )
 }
