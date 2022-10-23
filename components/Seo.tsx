@@ -1,6 +1,10 @@
 import Head from 'next/head'
 
-export default function Seo({ title }) {
+interface Props {
+  title: string
+}
+
+export default function Seo({ title }: Props) {
   return (
     <Head>
       <title> {title} </title>

@@ -1,7 +1,11 @@
+import NavigationBar from './Header/NavigationBar'
+
 export default function MainHeader() {
   return (
     <>
-      <header>Header</header>
+      <header>
+        <NavigationBar></NavigationBar>
+      </header>
       <style jsx>{``}</style>
     </>
   )
