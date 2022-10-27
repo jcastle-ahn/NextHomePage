@@ -8,7 +8,7 @@ export default function Gradio() {
         src="https://gradio.s3-us-west-2.amazonaws.com/3.7/gradio.js"
         async
       ></script>
-      <gradio-app space="abidlabs/pytorch-image-classifier"></gradio-app>
+      <gradio-app space="jcastle/StableDiffusion"></gradio-app>
       {/* <div className="iframebox">
         <iframe src="https://hf.space/embed/jcastle/StableDiffusion/+"></iframe>
       </div>
