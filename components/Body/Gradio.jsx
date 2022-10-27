@@ -3,7 +3,13 @@ import Script from 'next/script'
 export default function Gradio() {
   return (
     <>
-      <div className="iframebox">
+      <script
+        type="module"
+        src="https://gradio.s3-us-west-2.amazonaws.com/3.7/gradio.js"
+        async
+      ></script>
+      <gradio-app space="abidlabs/pytorch-image-classifier"></gradio-app>
+      {/* <div className="iframebox">
         <iframe src="https://hf.space/embed/jcastle/StableDiffusion/+"></iframe>
       </div>
       <style jsx>{`
@@ -17,7 +23,7 @@ export default function Gradio() {
           width: 100%;
           height: 100%;
         }
-      `}</style>
+      `}</style> */}
     </>
   )
 }
