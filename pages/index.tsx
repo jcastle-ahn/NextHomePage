@@ -1,4 +1,4 @@
-import Body from '../components/Body'
+import Body from '../components/Body/Body'
 import Footer from '../components/Footer'
 import MainHeader from '../components/MainHeader'
 import Seo from '../components/Seo'
